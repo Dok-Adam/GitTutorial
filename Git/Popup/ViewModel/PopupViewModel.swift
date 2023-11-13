@@ -16,6 +16,12 @@ struct PopupViewModel: View {
         
         RoundedRectangle(cornerRadius: 12)
             .frame(width: 100, height: 100)
+        
+        RoundedRectangle(cornerRadius: 12)
+            .foregroundColor(.blue)
+            .frame(width: 100, height: 100)
+        
+        
             
     }
 }
