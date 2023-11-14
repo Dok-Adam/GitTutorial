@@ -21,6 +21,9 @@ struct PopupViewModel: View {
             .foregroundColor(.blue)
             .frame(width: 100, height: 100)
         
+        RoundedRectangle(cornerRadius: 12)
+            .foregroundColor(.orange)
+            .frame(width: 100, height: 100)
         
             
     }
