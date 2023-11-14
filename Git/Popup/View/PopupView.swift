@@ -17,6 +17,10 @@ struct PopupView: View {
         Capsule()
             .frame(width: 100, height: 200)
             .foregroundColor(.red)
+        
+        Capsule()
+            .frame(width: 100, height: 200)
+            .foregroundColor(.green)
     }
 }
 
