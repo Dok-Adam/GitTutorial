@@ -22,9 +22,10 @@ struct PopupViewModel: View {
             .frame(width: 100, height: 100)
         
         RoundedRectangle(cornerRadius: 12)
-            .foregroundColor(.yellow)
+            .foregroundColor(.orange)
             .frame(width: 100, height: 100)
-      
+        
+            
     }
 }
 

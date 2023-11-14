@@ -21,6 +21,9 @@ struct PopupView: View {
         Capsule()
             .frame(width: 100, height: 200)
             .foregroundColor(.green)
+        RoundedRectangle(cornerRadius: 12)
+            .foregroundColor(.orange)
+            .frame(width: 100, height: 100)
     }
 }
 
